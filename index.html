@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="userView">
+        <img class="background" src="http://placekitten.com/g/300/160">
+          <a href="#!user"><img class="circle" src="http://placekitten.com/g/64/64"></a>
+          <a href="#!name"><span class="white-text name">Abdelmajid Essofi</span></a>
+          <a href="#!email"><span class="white-text email">abdelmajidessofi01@gmail.com</span></a>
+        </div></li>
+        <li><a href="Who-am-I?">Who am I?</a></li>
+        <li><a href="#What-do-I-do">What do I do?</a></li>
+        <li><a href="#work-experience">Work experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <nav class="custom-nav">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/cover.jpg"></div>
+      </div>
+
+      <section id="Who-I-am"></section>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.parallax').parallax();
+          $(".button-collapse").sideNav();
+        });
+      </script>
+
+    </body>
+  </html>
+        
